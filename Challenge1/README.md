@@ -1,5 +1,5 @@
-<h><b>Challenge 1</b><h><br>
-<b>http://66.108.241.23/messages</b><br>
+
+<b>URL to web server: </b>http://66.108.241.23/messages
 <b>Dependencies:</b>
   1. Python3.x
   2. asyncio
