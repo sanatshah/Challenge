@@ -16,6 +16,6 @@ Lastly, I know when I have exhausted all combinations if the combo contains only
 
 For finding the first combo the efficiency is <b>O(N + (X + B))</b>. Where N is the size of the string, X is the number of 'x''s there are and B is how many zeros to append to the combo string. We can simply see that X>B so the efficiency is now <b>O(N + X)</b>. Also N>X thus we have <b>O(N)</b>.
 
-Now finding the subsequent combos it only takes <b>O(X)</b> time. But there are 2^|X| number of combinations. 
+Now for finding each additional combos it only takes <b>O(X)</b> time. But there are 2^|X| number of combinations. 
 Thus the total efficiency of the whole algorithm is O(N + 2^|x|(X)) or just <b>O(2^|x|(X))</b>.
 
