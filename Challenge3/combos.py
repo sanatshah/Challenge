@@ -12,8 +12,8 @@ def printStringWithCombo(string, numOfXs, combo):
     if (len(comboString)<len(numOfXs)):
         for i in range(0, len(numOfXs)-len(comboString)):
             comboString="0" + comboString
+	
     #replace the X indexs in the original string with the combo
-
     for i, value in enumerate(comboString):    
         updatedString = list(updatedString)
         updatedString[numOfXs[i]] = value
@@ -47,7 +47,7 @@ if (__name__ == "__main__"):
       while(notFinished):
     	combo = bin(int(combo,2) + int('1',2))
         notFinished = printStringWithCombo(string, numOfXs, combo)
-        #gc.collect()
+        gc.collect()
 
     except MemoryError:
       print("Out of memory") 
