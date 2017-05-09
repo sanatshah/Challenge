@@ -1,6 +1,6 @@
 <h><b>Challenge 2</b></h> </br>
 
-<b>python bestTwoItems.py prices.txt 23</b>
+<b>Example</b> python bestTwoItems.py prices.txt 23
 
 <b>Efficiency:</b>  O(N) -> where N is the number of items in the input
 
