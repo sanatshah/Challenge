@@ -1,8 +1,6 @@
 <h><b>Challenge 2</b></h> </br>
-I chose to use python again for this challenge for its quickness and simplicity.
-It can be run using python 2.x or greater. 
 
-ex: python bestTwoItems.py prices.txt 23
+<b>python bestTwoItems.py prices.txt 23</b>
 
 <b>Efficiency:</b>  O(N) -> where N is the number of items in the input
 
