@@ -1,6 +1,4 @@
-<h><b>Challenge 3</b><h>
-
-<b>python combos.py 10X0X010X</b>
+<b>Run example</b> python combos.py 10X0X010X
 
 Binary addition was the heart of the algorithm.
 
