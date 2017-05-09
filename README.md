@@ -1,2 +1,2 @@
 
-Here are the 3 coding challenges. Each Challenge folder has a README explaining my algorithm and efficiencies.
+Here are the 3 coding challenges. Each Challenge folder has a README explaining the algorithm and efficiency.
