@@ -18,4 +18,3 @@ For finding the first combo the efficiency is <b>O(N + (X + B))</b>. Where N is 
 
 Now for finding each additional combos it only takes <b>O(X)</b> time. But there are 2^|X| number of combinations. 
 Thus the total efficiency of the whole algorithm is O(N + 2^|x|(X)) or just <b>O(2^|x|(X))</b>.
-
